@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class=" bg-light shadow border-1 rounded-3 p-4 col-8 mx-auto mt-5 ">
+            <h1>Cadastro de Tarefas</h1>
+            <label class="form-label" for="titulo_tarefa">Digite o titulo da tarefa</label>
+            <input id="titulo_tarefa" class="form-control" type="text" placeholder="Titulo">
+            <label class="form-label" for="descricao_tarefa">Descrição da tarefa</label>
+            <textarea id="descricao_tarefa" class="form-control" name="" id="" cols="30" rows="3"></textarea>
+            <label class="form-label" for="prioridade_tarefa">Prioridade</label>
+            <select id="prioridade_tarefa" class="form-select" name="">
+                <option selected disabled value="">Defina a prioridade</option>
+                <option value="1">Baixa</option>
+                <option value="2">Média</option>
+                <option value="3">Alta</option>
+            </select>
+            <button id="btn-salvar" class="btn btn-success mt-3">Salvar Tarefa</button>
+        </div>
+
+        <div id="saida" class="row justify-content-center">
+           
+            
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
